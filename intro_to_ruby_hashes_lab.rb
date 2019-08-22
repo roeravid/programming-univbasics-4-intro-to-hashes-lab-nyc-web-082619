@@ -8,6 +8,7 @@ def my_hash
     firstName: "Joe",
     lastNAme = "David"
   }
+  return my_hash
 end
 
 def pioneer
@@ -16,6 +17,7 @@ def pioneer
     :name => "Grace Hopper"
   }
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  return pioneer
 end
 
 def id_generator
@@ -24,6 +26,7 @@ def id_generator
     :id => 1
   }
   # return a hash with a key :id assigned to positive integer
+  return id_generator
 end
 
 def my_hash_creator(key, value)
@@ -32,6 +35,7 @@ def my_hash_creator(key, value)
       key : value
   }
   # return a hash that includes the key and value parameters passed into this method
+  return my_hash_creator
 end
 
 def read_from_hash(hash, key)
@@ -40,13 +44,24 @@ def read_from_hash(hash, key)
     hash : key
   }
   # return the correct value using the hash and key parameters
+  return read_from_hash
 end
 
 def update_counting_hash(hash, key)
   
   update_counting_hash(hash , key) = 
   {
-    
+    if !(hash / 1)
+      {
+        puts "value is not an integer"
+        break
+      }
+    elsif
+      key = true
+      {
+        key += 1  
+      }
+      
   }
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
