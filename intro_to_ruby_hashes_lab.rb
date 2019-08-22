@@ -59,7 +59,7 @@ def update_counting_hash(hash, key)
     elsif
       key = true
       {
-        key += 1  
+          
       }
       
   }
