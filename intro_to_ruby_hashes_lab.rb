@@ -51,17 +51,15 @@ def update_counting_hash(hash, key)
   
   update_counting_hash(hash , key) = 
   {
-    if !(hash / 1)
+   if (key = true)
+     {
+       key += 1 
+     }
+    else
       {
-        puts "value is not an integer"
-        break
+        key = 1 
+        hash << key
       }
-    elsif
-      key = true
-      {
-          
-      }
-      
   }
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
